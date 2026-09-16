@@ -1,0 +1,36 @@
+END-USER LICENSE AGREEMENT (EULA) FOR DOTXPANDER
+
+IMPORTANT: PLEASE READ THIS END-USER LICENSE AGREEMENT ("EULA") CAREFULLY BEFORE INSTALLING, COPYING, OR USING DOTXPANDER ("THE SOFTWARE"). BY INSTALLING, DOWNLOADING, ACCESSING, OR USING THE SOFTWARE, YOU AGREE TO BE BOUND BY THE TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE TO THESE TERMS, DO NOT INSTALL, COPY, OR USE THE SOFTWARE.
+
+1. GRANT OF LICENSE
+Subject to the terms and conditions of this Agreement, aiVOLUTION ApS ("Licensor") grants you ("Licensee") a personal, revocable, non-exclusive, non-transferable, non-sublicensable license to install and execute the compiled binary executable of dotXPANDER solely for your internal personal or business use in accordance with this Agreement.
+
+2. PROPRIETARY RIGHTS AND RESTRICTIONS
+The Software, including its source code, design, layout, algorithms, structure, graphics, and documentation, is proprietary to aiVOLUTION ApS and is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. 
+
+Except as expressly authorized in this Agreement, you shall not, directly or indirectly:
+(a) Decompile, disassemble, reverse engineer, decrypt, or otherwise attempt to derive or reconstruct the source code of the Software;
+(b) Copy, duplicate, modify, translate, adapt, or create derivative works based upon the Software;
+(c) Sell, resell, rent, lease, distribute, redistribute, license, sublicense, assign, loan, or commercially exploit the Software or make it available to any third party on a standalone, service bureau, or timesharing basis;
+(d) Remove, alter, obscure, or deface any proprietary notices, copyright marks, labels, trademarks, or attribution statements in or on the Software;
+(e) Circumvent, disable, or tamper with any technological protection measures, license enforcement, or security features of the Software.
+
+3. THIRD-PARTY LICENSES AND ATTRIBUTIONS
+The Software incorporates and links against certain third-party libraries and components, including the Slint UI framework (under the Slint Royalty-Free License) and various Rust community crates governed by permissive open-source licenses (such as MIT and Apache 2.0). Nothing in this Agreement limits, restricts, or overrides any rights granted to you under the applicable third-party open-source licenses for those specific third-party components. The full attribution notices and license texts for all included third-party components are provided within the Software's "About" section and documentation.
+
+4. UPDATES AND MODIFICATIONS
+aiVOLUTION ApS may from time to time provide updates, bug fixes, patches, or upgrades to the Software. Such updates shall become part of the Software and subject to the terms of this Agreement unless accompanied by a separate license agreement.
+
+5. TERMINATION
+This Agreement is effective until terminated. Your rights under this Agreement will terminate immediately and automatically without notice from aiVOLUTION ApS if you fail to comply with any of the terms or conditions of this Agreement. Upon termination, you must cease all use of the Software and destroy or uninstall all copies of the Software in your possession.
+
+6. DISCLAIMER OF WARRANTIES
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, ACCURACY, AND NON-INFRINGEMENT. AIVOLUTION APS DOES NOT WARRANT THAT THE FUNCTIONS CONTAINED IN THE SOFTWARE WILL MEET YOUR REQUIREMENTS, THAT THE OPERATION OF THE SOFTWARE WILL BE UNINTERRUPTED OR ERROR-FREE, OR THAT DEFECTS IN THE SOFTWARE WILL BE CORRECTED. YOU ASSUME FULL RESPONSIBILITY AND RISK FOR THE INSTALLATION, OPERATION, AND USE OF THE SOFTWARE.
+
+7. LIMITATION OF LIABILITY
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL AIVOLUTION APS, ITS OFFICERS, DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF DATA, SYSTEM FAILURE, OR OTHER PECUNIARY LOSS) ARISING OUT OF OR IN CONNECTION WITH THE USE OR INABILITY TO USE THE SOFTWARE, EVEN IF AIVOLUTION APS HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IN ANY CASE, AIVOLUTION APS'S MAXIMUM AGGREGATE LIABILITY UNDER THIS AGREEMENT SHALL BE LIMITED TO THE AMOUNT ACTUALLY PAID BY YOU FOR THE SOFTWARE.
+
+8. GOVERNING LAW
+This Agreement shall be governed by and construed in accordance with the laws of Denmark, without regard to its conflict of law provisions.
+
+Copyright (c) 2026 aiVOLUTION ApS. All rights reserved.
