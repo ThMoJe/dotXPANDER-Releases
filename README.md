@@ -1,7 +1,7 @@
 # dotXPANDER
 
 A lightweight, high-performance Windows text expander and productivity utility.
-Native Rust and Slint UI for Windows 11 ARM64 and Windows 10/11 x86_64.
+Native Rust and Slint UI for Windows 11 ARM64 and Windows 10/11 x86_64 and ARM64
 
 dotXPANDER is a native Windows productivity tool designed for speed, low resource usage, and seamless compatibility with modern Windows applications. It runs as a single, highly optimized native binary that requires no background runtime, uses minimal memory, and draws 0.0% CPU while idle.
 
