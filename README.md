@@ -5,6 +5,10 @@ Native Rust and Slint UI for Windows 11 ARM64 and Windows 10/11 x86_64 and ARM64
 
 dotXPANDER is a native Windows productivity tool designed for speed, low resource usage, and seamless compatibility with modern Windows applications. It runs as a single, highly optimized native binary that requires no background runtime, uses minimal memory, and draws 0.0% CPU while idle.
 
+## Support & Bug Reports
+
+If you encounter a bug, have a feature request, or need support, please open an issue in the [Issues tab](https://github.com/ThMoJe/dotXPANDER-Releases/issues) of this repository.
+
 ## Installation
 
 ### Option A: Windows Package Manager (Winget) - Recommended
