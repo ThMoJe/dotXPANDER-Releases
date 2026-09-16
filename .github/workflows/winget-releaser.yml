@@ -1,0 +1,17 @@
+name: Winget Releaser
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  publish-to-winget:
+    name: Publish to Winget
+    runs-on: windows-latest
+    steps:
+      - name: Submit to Winget
+        uses: vedantmgoyal2009/winget-releaser@v2
+        with:
+          identifier: aiVOLUTION.dotXPANDER
+          installers-regex: '\.exe$'
+          token: ${{ secrets.WINGET_TOKEN }}
