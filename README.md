@@ -1,4 +1,4 @@
-# dotXPANDER
+# .XPANDER
 
 A lightweight, high-performance Windows text expander and productivity utility.
 Native Rust and Slint UI for Windows 11 ARM64 and Windows 10/11 x86_64 and ARM64
