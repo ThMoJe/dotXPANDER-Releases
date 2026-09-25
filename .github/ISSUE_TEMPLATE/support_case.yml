@@ -1,0 +1,71 @@
+name: "🛠️ 3rd Level Support / Technical Case"
+description: "Deep-dive technical assistance (hook conflicts, antivirus false positives, elevated permissions, or crash diagnostics)."
+title: "[Support]: "
+labels: ["support", "3rd-level"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for advanced system-level technical cases, Windows low-level keyboard hook conflicts (`WH_KEYBOARD_LL`), elevated process permissions, or antivirus issues.
+        For general pre-sales or licensing questions, please visit our [Support Portal](https://www.aivolution.dk/xpander).
+  - type: input
+    id: version_env
+    attributes:
+      label: dotXPANDER Version & Windows OS Build
+      description: E.g., dotXPANDER v0.2.0 on Windows 11 Build 22631.3007
+      placeholder: "dotXPANDER v0.2.0, Windows 11 23H2 Build 22631"
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Case Summary
+      description: Describe the technical problem, environment, or conflict in detail.
+      placeholder: "Describe the technical issue..."
+    validations:
+      required: true
+  - type: textarea
+    id: software_conflicts
+    attributes:
+      label: Other Background Input & Security Software
+      description: List any active software that intercepts input, modifies hotkeys, or monitors low-level hooks (e.g., AutoHotkey, Microsoft PowerToys, Razer Synapse, Discord Overlay, Vanguard, Antivirus suite).
+      placeholder: "e.g., Microsoft PowerToys (Keyboard Manager enabled), Bitdefender Total Security, AutoHotkey v2"
+    validations:
+      required: false
+  - type: dropdown
+    id: privilege_level
+    attributes:
+      label: Process Privilege Level
+      description: How are dotXPANDER and the target application running? (Standard User vs Administrator)
+      options:
+        - "Both dotXPANDER and Target App run as standard non-elevated user"
+        - "dotXPANDER runs as standard user, Target App runs as Administrator (Elevated)"
+        - "dotXPANDER runs as Administrator, Target App runs as Administrator"
+        - "Unknown / Mixed"
+    validations:
+      required: true
+  - type: checkboxes
+    id: troubleshooting_checklist
+    attributes:
+      label: Troubleshooting Steps Already Attempted
+      options:
+        - label: "Tested with other hotkey/macro tools closed (PowerToys, AHK, etc.)"
+          required: false
+        - label: "Checked if the target application is running as Administrator (UAC boundary)"
+          required: false
+        - label: "Checked antivirus / security software logs for blocked hooks or false positives"
+          required: false
+        - label: "Verified config.toml is located in %APPDATA%\\aiVOLUTION\\dotXPANDER (or custom path)"
+          required: false
+  - type: textarea
+    id: diagnostic_data
+    attributes:
+      label: Runtime Log / System Details (Optional)
+      description: |
+        If present, paste relevant lines from the release runtime log at `%APPDATA%\aiVOLUTION\dotXPANDER\debug.log`.
+        This is written by the standard release build — no debug version required. Also include any Windows Event Viewer entries or antivirus block alerts if relevant.
+      render: shell
+      placeholder: |
+        # Paste log lines, Event Viewer entries, or antivirus alerts here (remove sensitive data)
+    validations:
+      required: false

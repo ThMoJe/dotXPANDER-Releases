@@ -1,0 +1,90 @@
+name: "🪲 Bug Report"
+description: "Create a report to help us fix a defect or unexpected behavior in dotXPANDER."
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a bug! Please fill out this form as completely as possible to help us diagnose and resolve the issue quickly.
+  - type: input
+    id: version
+    attributes:
+      label: dotXPANDER Version
+      description: What version of dotXPANDER are you running? (e.g., v0.2.0 — see Settings or executable properties)
+      placeholder: "e.g. v0.2.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: install_type
+    attributes:
+      label: Installation Mode
+      description: How is dotXPANDER installed or running on your system?
+      options:
+        - "Installed (Setup / unins000.exe in AppData or Program Files)"
+        - "Portable (.zip / standalone executable)"
+        - "Winget (winget install dotXPANDER)"
+        - "Built from source (Cargo / Rust)"
+    validations:
+      required: true
+  - type: dropdown
+    id: os_version
+    attributes:
+      label: Windows Version
+      description: What Windows operating system build are you using?
+      options:
+        - "Windows 11 (23H2 or newer)"
+        - "Windows 11 (22H2 or older)"
+        - "Windows 10 (22H2 / 21H2)"
+        - "Windows Server"
+        - "Other (specify below)"
+    validations:
+      required: true
+  - type: input
+    id: target_apps
+    attributes:
+      label: Target Application(s)
+      description: In which applications did the issue occur? (e.g., Chrome, VS Code, Discord, Word, PowerShell)
+      placeholder: "e.g. Google Chrome, Visual Studio Code"
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear and concise description of what the bug is.
+      placeholder: "Describe what happened..."
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction_steps
+    attributes:
+      label: Steps to Reproduce
+      description: Exact steps to reproduce the behavior.
+      placeholder: |
+        1. Open dotXPANDER and configure snippet ':test' -> 'Hello'
+        2. Switch to application XYZ
+        3. Type trigger ':test'
+        4. Observe unexpected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: expected_vs_actual
+    attributes:
+      label: Expected vs. Actual Behavior
+      description: What did you expect to happen, and what happened instead?
+      placeholder: "Expected snippet to expand into ..., but instead it ..."
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Runtime Log / Configuration Snippet (Optional)
+      description: |
+        If present, paste relevant lines from the release runtime log at `%APPDATA%\aiVOLUTION\dotXPANDER\debug.log`.
+        This is written by the standard release build — no debug version required. Remove any sensitive text before submitting.
+      render: shell
+      placeholder: |
+        # Paste log lines or relevant config.toml entries here (remove sensitive data)
+    validations:
+      required: false
