@@ -21,10 +21,10 @@ body:
       label: Installation Mode
       description: How is dotXPANDER installed or running on your system?
       options:
-        - "Installed (Setup / unins000.exe in AppData or Program Files)"
+        - "Installed (via Setup / Installer)"
         - "Portable (.zip / standalone executable)"
         - "Winget (winget install dotXPANDER)"
-        - "Built from source (Cargo / Rust)"
+        - "Microsoft Store"
     validations:
       required: true
   - type: dropdown
@@ -38,6 +38,17 @@ body:
         - "Windows 10 (22H2 / 21H2)"
         - "Windows Server"
         - "Other (specify below)"
+    validations:
+      required: true
+  - type: dropdown
+    id: architecture
+    attributes:
+      label: Windows Architecture
+      description: Is your Windows installation running on x64 (Intel/AMD) or ARM64 (Snapdragon / Surface Pro X)?
+      options:
+        - "x64 (Intel / AMD)"
+        - "ARM64 (Snapdragon / Surface Pro X / Copilot+ PC)"
+        - "Unknown"
     validations:
       required: true
   - type: input
