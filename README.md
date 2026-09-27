@@ -9,7 +9,7 @@ dotXPANDER is a native Windows productivity tool designed for speed, low resourc
 
 ## Installation
 
-### Option A: Windows Package Manager (Winget) - Recommended
+### Option A: Windows Package Manager (Winget) - AWAITING WINGET APPROVAL!
 
 You can install dotXPANDER directly via Windows Package Manager:
 
