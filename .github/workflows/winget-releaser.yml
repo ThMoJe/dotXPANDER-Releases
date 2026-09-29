@@ -1,9 +1,12 @@
+# Winget submission for dotXPANDER.
+#
+# Triggered ONLY by an explicit repository_dispatch from ThMoJe/dotxpander
+# when the release workflow runs with winget_push=true.
+# Never fires automatically on release publication.
 name: Winget Releaser
-
 on:
-  release:
-    types: [published]
-
+  repository_dispatch:
+    types: [winget-push]
 jobs:
   publish-to-winget:
     name: Publish to Winget
@@ -13,5 +16,7 @@ jobs:
         uses: vedantmgoyal2009/winget-releaser@v2
         with:
           identifier: aiVOLUTION.dotXPANDER
+          version: ${{ github.event.client_payload.version }}
+          release-tag: ${{ github.event.client_payload.tag }}
           installers-regex: '\.exe$'
           token: ${{ secrets.WINGET_TOKEN }}
