@@ -56,12 +56,12 @@ Before opening a support ticket, checking these common Windows configuration poi
 - **Cause**: dotXPANDER uses a standard low-level Windows keyboard hook (`WH_KEYBOARD_LL`). When multiple tools (such as Microsoft PowerToys Keyboard Manager, AutoHotkey, or gaming macro software) intercept keystrokes simultaneously, hook chaining delays or suppression can occur.
 - **Solution**: Test by temporarily disabling or exiting competing hotkey utilities to isolate the conflict.
 
-### C. Where Are My Settings and Logs?
+### C. Where Are My Settings Located?
 - **Installed Mode**:
-  - Configuration: `%APPDATA%\aiVOLUTION\dotXPANDER\config.toml`
-  - Runtime Log: `%APPDATA%\aiVOLUTION\dotXPANDER\debug.log`
+  - Configuration: `%APPDATA%\aiVOLUTION\dotXPANDER\config.toml` (or your custom cloud-synced folder)
 - **Portable Mode**:
-  - Configuration and logs are stored in the same folder as `dotXPANDER.exe`.
+  - Configuration is stored directly alongside `dotXPANDER.exe`.
+*(Note: Official release builds compile out diagnostic file logging to disk for maximum user privacy and credential security).*
 
 ### D. Restoring an Encrypted Configuration
 - If you enabled AES-256-GCM encryption on your configuration file and move to a new machine or reset your Windows user profile, you can restore your snippets using the **One-Time Recovery Key** generated when encryption was first activated.
