@@ -11,8 +11,8 @@ body:
     id: version
     attributes:
       label: dotXPANDER Version
-      description: What version of dotXPANDER are you running? (e.g., v0.2.0 — see Settings or executable properties)
-      placeholder: "e.g. v0.2.0"
+      description: What version of dotXPANDER are you running? (e.g., v0.3.21 — see Settings or executable properties)
+      placeholder: "e.g. v0.3.21"
     validations:
       required: true
   - type: dropdown
@@ -23,7 +23,7 @@ body:
       options:
         - "Installed (via Setup / Installer)"
         - "Portable (.zip / standalone executable)"
-        - "Winget (winget install dotXPANDER)"
+        - "Winget (winget install aiVOLUTION.dotXPANDER)"
         - "Microsoft Store"
     validations:
       required: true
@@ -90,12 +90,12 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: Runtime Log / Configuration Snippet (Optional)
+      label: Configuration Snippet / Details (Optional)
       description: |
-        If present, paste relevant lines from the release runtime log at `%APPDATA%\aiVOLUTION\dotXPANDER\debug.log`.
-        This is written by the standard release build — no debug version required. Remove any sensitive text before submitting.
+        If relevant, paste sanitized configuration settings from `config.toml` or reproduction notes.
+        Official release builds compile out diagnostic file logging to disk for privacy. Remove any sensitive text before submitting.
       render: shell
       placeholder: |
-        # Paste log lines or relevant config.toml entries here (remove sensitive data)
+        # Paste relevant config.toml entries or notes here (remove sensitive data)
     validations:
       required: false
