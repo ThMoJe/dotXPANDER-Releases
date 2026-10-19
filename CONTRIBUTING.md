@@ -29,7 +29,7 @@ To report a bug, open a ticket using our structured form:
 👉 **[New Bug Report](https://github.com/ThMoJe/dotXPANDER-Releases/issues/new?template=bug_report.yml)**
 
 Please provide as much relevant detail as possible:
-1. **dotXPANDER Version**: e.g., `v0.2.0` (visible in Settings or file properties).
+1. **dotXPANDER Version**: e.g., `v0.3.21` (visible in Settings or file properties).
 2. **Installation Mode**:
    - Installed (via Setup executable)
    - Portable (`.zip` / standalone executable)
@@ -42,13 +42,10 @@ Please provide as much relevant detail as possible:
 5. **Reproduction Steps**: Step-by-step instructions to reproduce the issue reliably.
 6. **Expected vs. Actual Behavior**: What you expected to happen versus what actually occurred.
 
-### Runtime Logs & Diagnostics
-Standard release builds automatically write diagnostic events to a local log file:
-- **Default path**: `%APPDATA%\aiVOLUTION\dotXPANDER\debug.log`
-- **Portable mode**: Located alongside `dotXPANDER.exe`
+### Privacy & Diagnostics
+dotXPANDER is **100% offline with zero telemetry**. Diagnostic file logging is completely compiled out of release builds (`#[cfg(debug_assertions)]`) to ensure sensitive keystroke and template data are never written to disk.
 
-> [!IMPORTANT]
-> dotXPANDER is **100% offline with zero telemetry**. We never collect your keystrokes or snippet contents. When attaching log snippets or configuration excerpts to public issues, please **redact any sensitive information or private triggers** before submitting.
+When submitting bug reports or configuration excerpts, you may optionally attach sanitized snippets or relevant settings from `config.toml`. Please **redact any sensitive information or private triggers** before submitting.
 
 ---
 
