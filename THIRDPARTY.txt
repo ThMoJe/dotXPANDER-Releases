@@ -1,0 +1,92 @@
+================================================================================
+THIRD-PARTY SOFTWARE NOTICES AND LICENSES
+================================================================================
+
+dotXPANDER includes components from the following third-party libraries:
+
+1. Slint UI Framework
+   Website: https://slint.dev
+   License: Slint Royalty-Free License
+   Copyright (c) SixtyFPS GmbH <info@slint.dev>
+   Used under the terms of the Slint Royalty-Free License for desktop applications.
+
+2. windows-rs
+   Website: https://github.com/microsoft/windows-rs
+   License: MIT or Apache-2.0
+   Copyright (c) Microsoft Corporation
+
+3. serde & serde_derive
+   Website: https://serde.rs
+   License: MIT or Apache-2.0
+   Copyright (c) David Tolnay and serde contributors
+
+4. toml
+   Website: https://github.com/toml-rs/toml
+   License: MIT or Apache-2.0
+   Copyright (c) Alex Crichton and toml contributors
+
+5. arc-swap
+   Website: https://github.com/vorner/arc-swap
+   License: MIT or Apache-2.0
+   Copyright (c) Michal 'vorner' Vaner
+
+6. unicode-segmentation
+   Website: https://github.com/unicode-rs/unicode-segmentation
+   License: MIT or Apache-2.0
+   Copyright (c) Unicode, Inc., Kwon-Han Bae, and contributors
+
+7. winresource
+   Website: https://github.com/gabdube/winresource-rs
+   License: MIT
+   Copyright (c) Marco Hickmann
+
+8. aes-gcm & aes
+   Website: https://github.com/RustCrypto/AEADs
+   License: MIT or Apache-2.0
+   Copyright (c) RustCrypto developers
+
+9. rand
+   Website: https://github.com/rust-random/rand
+   License: MIT or Apache-2.0
+   Copyright (c) The Rand Project Developers
+
+10. base64
+    Website: https://github.com/marshallpierce/rust-base64
+    License: MIT or Apache-2.0
+    Copyright (c) Alice Maz and Marshall Pierce
+
+--------------------------------------------------------------------------------
+STANDARD MIT LICENSE TEXT
+--------------------------------------------------------------------------------
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------------------
+APACHE LICENSE VERSION 2.0 SUMMARY
+--------------------------------------------------------------------------------
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
