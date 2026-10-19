@@ -9,15 +9,17 @@ dotXPANDER is a native Windows productivity tool designed for speed, low resourc
 
 ## Installation
 
-### Option A: Windows Package Manager (Winget) - AWAITING WINGET APPROVAL!
+### Option A: Windows Package Manager (Winget)
 
-You can install dotXPANDER directly via Windows Package Manager:
+Once Winget submission approval is complete:
 
 ```powershell
 winget install aiVOLUTION.dotXPANDER
 ```
 
-### Option B: Windows Installer
+*(Package submission is currently undergoing final verification; Windows Installer or Portable ZIP recommended in the interim).*
+
+### Option B: Windows Installer (Recommended)
 
 Download the latest setup executable (`dotXPANDER-x64-Setup.exe` or `dotXPANDER-arm64-Setup.exe`) from the [Releases](https://github.com/ThMoJe/dotXPANDER-Releases/releases) tab.
 
@@ -29,19 +31,22 @@ Download the portable zip archive from the [Releases](https://github.com/ThMoJe/
 
 ## Features
 
-- Snippet Expansion: Expands trigger strings instantly as you type or on demand using a configurable keyboard shortcut.
-- Low Resource Footprint: Zero-allocation ring buffer matching engine ensures extreme performance with minimal RAM usage and 0% idle CPU.
-- Dynamic Snippet Tokens: Embed live, context-aware placeholders (dates, times, clipboard contents) in your snippets.
-- Case & Space Changer: Global shortcut to transform selected text (uppercase, lowercase, camelCase, Windows filename sanitization, etc.).
-- File Dialog Navigation: Automatically synchronizes standard Windows Open/Save file dialogs to the active File Explorer window.
-- Configurable Storage & Encryption: Save your configuration locally or in a cloud-synced folder (OneDrive, Dropbox, Google Drive) with optional authenticated AES-256-GCM encryption at rest, integrated with Windows Credential Manager and one-time recovery key support.
-- Privacy-Focused: 100% offline, zero telemetry, secure memory buffer zeroization, and encryption at rest.
+- **Snippet Expansion**: Expands trigger strings instantly as you type (Immediate Mode) or on demand using a configurable keyboard shortcut (Hotkey Mode, default: `Ctrl + Alt + X`).
+- **Low Resource Footprint**: Zero-allocation ring buffer matching engine ensures extreme performance with minimal RAM usage (~4.6 MB) and 0% idle CPU.
+- **Rich Text & Image Snippets**: Paste formatted text (`HTML Format`, `RTF`) or screenshots/images directly into snippet replacements with Paste-and-Lock (`.xblob` container storage).
+- **Floating Snippet Search Palette**: Press the .XPANDER hotkey with no trigger typed to open a floating, searchable palette to select and inject snippets without typing triggers.
+- **In-Settings Filter**: Live search and filter large snippet collections directly within the Expandings settings tab.
+- **Dynamic Snippet Tokens**: Embed live, context-aware placeholders (dates, times, clipboard contents) in your snippets.
+- **Case & Space Changer**: Global shortcut (`Ctrl + CapsLock`) to transform selected text (uppercase, lowercase, camelCase, Windows filename sanitization, etc.).
+- **File Dialog Navigation (Quick Switch)**: Automatically synchronizes standard Windows Open/Save file dialogs to the active File Explorer window.
+- **Configurable Storage & Encryption**: Save your configuration locally or in a cloud-synced folder (OneDrive, Dropbox, Google Drive) with optional authenticated AES-256-GCM encryption at rest, integrated with Windows Credential Manager and one-time recovery key support.
+- **Privacy-Focused**: 100% offline, zero telemetry, secure memory buffer zeroization, zero logging in release builds, and encryption at rest.
 
 ## License
 
 dotXPANDER is proprietary software licensed under the [End-User License Agreement](EULA.txt) by aiVOLUTION ApS. All rights reserved.
 
-Third-party open-source components and their respective licenses are documented in THIRDPARTY.txt.
+Third-party open-source components and their respective licenses are documented in [THIRDPARTY.txt](THIRDPARTY.txt).
 
 ## Support & Resources
 
