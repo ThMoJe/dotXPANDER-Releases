@@ -7,13 +7,13 @@ body:
     attributes:
       value: |
         Use this form for advanced system-level technical cases, Windows low-level keyboard hook conflicts (`WH_KEYBOARD_LL`), elevated process permissions, or antivirus issues.
-        For general pre-sales or licensing questions, please visit our [Support Portal](https://www.aivolution.dk/xpander).
+        For general pre-sales or licensing questions, please visit our [Support Portal](https://www.aivolution.dk/xpander-support).
   - type: input
     id: version_env
     attributes:
       label: dotXPANDER Version & Windows OS Build
-      description: E.g., dotXPANDER v0.2.0 on Windows 11 Build 22631.3007
-      placeholder: "dotXPANDER v0.2.0, Windows 11 23H2 Build 22631"
+      description: E.g., dotXPANDER v0.3.21 on Windows 11 Build 22631.3007
+      placeholder: "dotXPANDER v0.3.21, Windows 11 23H2 Build 22631"
     validations:
       required: true
   - type: textarea
@@ -60,12 +60,12 @@ body:
   - type: textarea
     id: diagnostic_data
     attributes:
-      label: Runtime Log / System Details (Optional)
+      label: System / Environment Details (Optional)
       description: |
-        If present, paste relevant lines from the release runtime log at `%APPDATA%\aiVOLUTION\dotXPANDER\debug.log`.
-        This is written by the standard release build — no debug version required. Also include any Windows Event Viewer entries or antivirus block alerts if relevant.
+        If present, paste relevant Windows Event Viewer entries, antivirus alerts, or relevant configuration excerpts.
+        Official release builds compile out keystroke diagnostic logs for privacy. Remove sensitive data before submitting.
       render: shell
       placeholder: |
-        # Paste log lines, Event Viewer entries, or antivirus alerts here (remove sensitive data)
+        # Paste Event Viewer entries, antivirus alerts, or sanitized config here
     validations:
       required: false
