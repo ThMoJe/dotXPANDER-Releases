@@ -9,7 +9,7 @@ Welcome to the dotXPANDER support guide. Whether you need help troubleshooting a
 | Channel | Best For | Expected Response Time |
 | :--- | :--- | :--- |
 | **[GitHub Issues](https://github.com/ThMoJe/dotXPANDER-Releases/issues)** *(Recommended)* | Bug reports, feature requests, keyboard hook conflicts, technical diagnostics | **Fastest** (Tracked directly by the development team) |
-| **[Official Support Portal](https://www.aivolution.dk/xpander-support)** | Users without a GitHub account, pre-sales inquiries, general feedback | Typically within a few business days |
+| **[Official Support Portal](https://www.dotxpander.com/support/)** | Users without a GitHub account, pre-sales inquiries, general feedback | Typically within a few business days |
 | **Email Support** (`support@aivolution.dk`) | Commercial licensing, private inquiries, or security reports | Typically within 2–3 business days |
 
 > [!TIP]
@@ -38,7 +38,7 @@ Our GitHub repository uses structured issue forms to ensure all necessary system
 ## 2. Official Web Portal & In-App Link
 
 The in-app **"🪲 Report a Bug"** button in dotXPANDER links directly to our official support portal:
-👉 **[https://www.aivolution.dk/xpander-support](https://www.aivolution.dk/xpander-support)**
+👉 **[https://www.dotxpander.com/support/](https://www.dotxpander.com/support/)**
 
 If you do not have a GitHub account, you can submit inquiries directly through the website form. Inquiries are reviewed by the XPANDER team in the order received, typically within a few business days.
 
@@ -90,6 +90,6 @@ Denmark
 
 - **CVR / VAT ID**: DK 46652649  
 - **Phone**: +45 20 64 63 93  
-- **Product Website**: [https://www.aivolution.dk/xpander](https://www.aivolution.dk/xpander)  
-- **Support Portal**: [https://www.aivolution.dk/xpander-support](https://www.aivolution.dk/xpander-support)  
+- **Product Website**: [https://www.dotxpander.com](https://www.dotxpander.com)  
+- **Support Portal**: [https://www.dotxpander.com/support/](https://www.dotxpander.com/support/)  
 - **Email**: `support@aivolution.dk`
