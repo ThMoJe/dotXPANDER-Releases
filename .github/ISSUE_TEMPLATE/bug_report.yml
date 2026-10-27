@@ -11,8 +11,8 @@ body:
     id: version
     attributes:
       label: dotXPANDER Version
-      description: What version of dotXPANDER are you running? (e.g., v0.3.21 — see Settings or executable properties)
-      placeholder: "e.g. v0.3.21"
+      description: What version of dotXPANDER are you running? (e.g., v0.3.25 — see Settings or executable properties)
+      placeholder: "e.g. v0.3.25"
     validations:
       required: true
   - type: dropdown
