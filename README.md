@@ -3,7 +3,7 @@
 **A lightweight, high-performance Windows text expander and productivity utility.**  
 Native Rust and Slint UI for Windows 11 ARM64 and Windows 10/11 x86_64.
 
-🌐 [Website](https://www.aivolution.dk/xpander) · 💬 [Support](https://www.aivolution.dk/xpander-support) · 📦 [Releases](https://github.com/ThMoJe/dotXPANDER-Releases/releases) · 🐛 [Issues](https://github.com/ThMoJe/dotXPANDER-Releases/issues)
+🌐 [Website](https://www.dotxpander.com) · 💬 [Support](https://www.dotxpander.com/support/) · 📦 [Releases](https://github.com/ThMoJe/dotXPANDER-Releases/releases) · 🐛 [Issues](https://github.com/ThMoJe/dotXPANDER-Releases/issues)
 
 dotXPANDER is a native Windows productivity tool designed for speed, low resource usage, and seamless compatibility with modern Windows applications. It runs as a single, highly optimized native binary that requires no background runtime, uses minimal memory, and draws 0.0% CPU while idle.
 
@@ -40,7 +40,7 @@ Download the portable zip archive from the [Releases](https://github.com/ThMoJe/
 - **Case & Space Changer**: Global shortcut (`Ctrl + CapsLock`) to transform selected text (uppercase, lowercase, camelCase, Windows filename sanitization, etc.).
 - **File Dialog Navigation (Quick Switch)**: Automatically synchronizes standard Windows Open/Save file dialogs to the active File Explorer window.
 - **Configurable Storage & Encryption**: Save your configuration locally or in a cloud-synced folder (OneDrive, Dropbox, Google Drive) with optional authenticated AES-256-GCM encryption at rest, integrated with Windows Credential Manager and one-time recovery key support.
-- **3 Built-In Themes**: Switch between the default `aiVOLUTION` brand theme, classic `Dark`, and `Light` modes (available from the next release).
+- **3 Built-In Themes**: Switch between the default `aiVOLUTION` brand theme, classic `Dark`, and `Light` modes.
 - **Privacy-Focused**: 100% offline, zero telemetry, secure memory buffer zeroization, zero logging in release builds, and encryption at rest.
 
 ## License
@@ -51,6 +51,6 @@ Third-party open-source components and their respective licenses are documented 
 
 ## Support & Resources
 
-- **Official Product Website**: [https://www.aivolution.dk/xpander](https://www.aivolution.dk/xpander)
-- **Support & Feedback Portal**: [https://www.aivolution.dk/xpander-support](https://www.aivolution.dk/xpander-support)
+- **Official Product Website**: [https://www.dotxpander.com](https://www.dotxpander.com)
+- **Support & Feedback Portal**: [https://www.dotxpander.com/support/](https://www.dotxpander.com/support/)
 - **Bug Reports & Feature Requests**: If you encounter an issue or have a feature request, please open a ticket in the [Issues tab](https://github.com/ThMoJe/dotXPANDER-Releases/issues) of this repository.
