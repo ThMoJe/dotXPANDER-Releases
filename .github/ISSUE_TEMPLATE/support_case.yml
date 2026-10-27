@@ -7,13 +7,13 @@ body:
     attributes:
       value: |
         Use this form for advanced system-level technical cases, Windows low-level keyboard hook conflicts (`WH_KEYBOARD_LL`), elevated process permissions, or antivirus issues.
-        For general pre-sales or licensing questions, please visit our [Support Portal](https://www.aivolution.dk/xpander-support).
+        For general pre-sales or licensing questions, please visit our [Support Portal](https://www.dotxpander.com/support/).
   - type: input
     id: version_env
     attributes:
       label: dotXPANDER Version & Windows OS Build
-      description: E.g., dotXPANDER v0.3.21 on Windows 11 Build 22631.3007
-      placeholder: "dotXPANDER v0.3.21, Windows 11 23H2 Build 22631"
+      description: E.g., dotXPANDER v0.3.25 on Windows 11 Build 22631.3007
+      placeholder: "dotXPANDER v0.3.25, Windows 11 23H2 Build 22631"
     validations:
       required: true
   - type: textarea
