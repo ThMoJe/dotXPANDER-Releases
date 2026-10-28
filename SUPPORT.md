@@ -58,7 +58,7 @@ Before opening a support ticket, checking these common Windows configuration poi
 
 ### C. Where Are My Settings Located?
 - **Installed Mode**:
-  - Configuration: `%APPDATA%\aiVOLUTION\dotXPANDER\config.toml` (or your custom cloud-synced folder)
+  - Configuration: `%APPDATA%\aiVOLUTION\dotXPANDER` (`config.toml`, or per-machine `config.<machine_id>.toml` and `snippets.<machine_id>.toml` from the next release, or your custom cloud-synced folder)
 - **Portable Mode**:
   - Configuration is stored directly alongside `dotXPANDER.exe`.
 *(Note: Official release builds compile out diagnostic file logging to disk for maximum user privacy and credential security).*
