@@ -39,7 +39,7 @@ Download the portable zip archive from the [Releases](https://github.com/ThMoJe/
 - **Dynamic Snippet Tokens**: Embed live, context-aware placeholders (dates, times, clipboard contents) in your snippets.
 - **Case & Space Changer**: Global shortcut (`Ctrl + CapsLock`) to transform selected text (uppercase, lowercase, camelCase, Windows filename sanitization, etc.).
 - **File Dialog Navigation (Quick Switch)**: Automatically synchronizes standard Windows Open/Save file dialogs to the active File Explorer window.
-- **Configurable Storage & Encryption**: Save your configuration locally or in a cloud-synced folder (OneDrive, Dropbox, Google Drive) with conflict-free multi-PC synchronization (per-machine replica merge) and optional authenticated AES-256-GCM encryption at rest, integrated with Windows Credential Manager and one-time recovery key support.
+- **Configurable Storage, Autostart & Encryption**: Save your configuration locally or in a cloud-synced folder (OneDrive, Dropbox, Google Drive) with conflict-free multi-PC synchronization (per-machine replica merge), optional authenticated AES-256-GCM encryption at rest (integrated with Windows Credential Manager and one-time recovery key support), and an in-app **Start .XPANDER with Windows** autostart toggle inside the **For installed version only** settings section (`🖥 This PC` / `🌐 All PCs` scope badges, available from the next release).
 - **3 Built-In Themes**: Switch between the default `aiVOLUTION` brand theme, classic `Dark`, and `Light` modes.
 - **Privacy-Focused**: 100% offline, zero telemetry, secure memory buffer zeroization, zero logging in release builds, and encryption at rest.
 
