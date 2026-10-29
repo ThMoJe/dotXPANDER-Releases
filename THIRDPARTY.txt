@@ -273,6 +273,7 @@ D. Permissive Crates (MIT / Apache-2.0 / Zlib / BSL-1.0 / 0BSD / CC0-1.0 / Unlic
 - rand (v0.8.8) | MIT OR Apache-2.0 | Copyright (c) 2018 Developers of the Rand project; Copyright (c) 2014 The Rust Project Developers
 - rand_chacha (v0.3.1) | MIT OR Apache-2.0 | Copyright (c) 2018 Developers of the Rand project; Copyright (c) 2014 The Rust Project Developers
 - rand_core (v0.6.4) | MIT OR Apache-2.0 | Copyright (c) 2018 Developers of the Rand project; Copyright (c) 2014 The Rust Project Developers
+- raw-cpuid (v11.6.0) | MIT | Copyright (c) 2015 Gerd Zellweger
 - raw-window-handle (v0.6.2) | MIT OR Apache-2.0 OR Zlib | Copyright (c) 2019 Osspial; Copyright (c) 2020 Osspial
 - rayon (v1.12.0) | MIT OR Apache-2.0 | Copyright (c) 2010 The Rust Project Developers
 - rayon-core (v1.13.0) | MIT OR Apache-2.0 | Copyright (c) 2010 The Rust Project Developers
