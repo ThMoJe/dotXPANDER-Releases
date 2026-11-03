@@ -18,5 +18,5 @@ jobs:
           identifier: aiVOLUTION.dotXPANDER
           version: ${{ github.event.client_payload.version }}
           release-tag: ${{ github.event.client_payload.tag }}
-          installers-regex: '\.exe$'
+          installers-regex: '-Setup\.exe$'
           token: ${{ secrets.WINGET_TOKEN }}
