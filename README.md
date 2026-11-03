@@ -9,23 +9,29 @@ dotXPANDER is a native Windows productivity tool designed for speed, low resourc
 
 ## Installation
 
-### Option A: Windows Package Manager (Winget)
+### Option A: Microsoft Store (Recommended)
 
-Once Winget submission approval is complete:
+Install directly from the [Microsoft Store](https://apps.microsoft.com/detail/9NCXXM1SKCW4) with automatic background updates, or via PowerShell:
+
+```powershell
+winget install ".XPANDER" --source msstore
+```
+
+### Option B: Windows Package Manager (Winget)
+
+For standalone desktop installer deployment (including environments without Microsoft Store access):
 
 ```powershell
 winget install aiVOLUTION.dotXPANDER
 ```
 
-*(Package submission is currently undergoing final verification; Windows Installer or Portable ZIP recommended in the interim).*
-
-### Option B: Windows Installer (Recommended)
+### Option C: Windows Installer
 
 Download the latest setup executable (`dotXPANDER-x64-Setup.exe` or `dotXPANDER-arm64-Setup.exe`) from the [Releases](https://github.com/ThMoJe/dotXPANDER-Releases/releases) tab.
 
 The setup wizard installs to your local user directory (no Administrator/UAC prompt required) and supports automated silent deployment.
 
-### Option C: Portable ZIP
+### Option D: Portable ZIP
 
 Download the portable zip archive from the [Releases](https://github.com/ThMoJe/dotXPANDER-Releases/releases) tab and extract it to a directory of your choice. When launched without installation, dotXPANDER runs in Portable Mode, storing its configuration alongside the executable.
 
