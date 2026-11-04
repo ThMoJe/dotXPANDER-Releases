@@ -33,7 +33,7 @@ The setup wizard installs to your local user directory (no Administrator/UAC pro
 
 ### Option D: Portable ZIP
 
-Download the portable zip archive from the [Releases](https://github.com/ThMoJe/dotXPANDER-Releases/releases) tab and extract it to a directory of your choice. When launched without installation, dotXPANDER runs in Portable Mode, storing its configuration alongside the executable. Encryption (requires writing to regstry and Windows Credential Manager) and Cloud folder synchronization is disabled in portable mode.
+Download the portable zip archive from the [Releases](https://github.com/ThMoJe/dotXPANDER-Releases/releases) tab and extract it to a directory of your choice. When launched without installation, dotXPANDER runs in Portable Mode, storing its configuration alongside the executable. As encryption and Cloud folder synchronization requires writing to Windows registry and Credential Manager, both are disabled in portable mode.
 
 ## Features
 
