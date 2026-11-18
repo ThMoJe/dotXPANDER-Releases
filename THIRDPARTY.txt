@@ -67,7 +67,6 @@ PART 2: FULL-TREE TRANSITIVE DEPENDENCY ATTRIBUTIONS
 
 A. BSD-3-Clause Crates
 ----------------------
-- subtle (v2.6.1) | BSD-3-Clause | Copyright (c) 2016-2017 Isis Agora Lovecruft, Henry de Valence. All rights reserved; Copyright (c) 2016-2024 Isis Agora Lovecruft. All rights reserved
 - tiny-skia (v0.12.0) | BSD-3-Clause | Copyright (c) 2011 Google Inc. All rights reserved; Copyright (c) 2020 Yevhenii Reizner All rights reserved
 - tiny-skia-path (v0.12.0) | BSD-3-Clause | Copyright (c) 2011 Google Inc. All rights reserved; Copyright (c) 2020 Yevhenii Reizner All rights reserved
 
@@ -107,9 +106,9 @@ C. Unicode-3.0 Crates (ICU4X & Unicode Components)
 D. Permissive Crates (MIT / Apache-2.0 / Zlib / BSL-1.0 / 0BSD / CC0-1.0 / Unlicense)
 -------------------------------------------------------------------------------------
 - adler2 (v2.0.1) | 0BSD OR MIT OR Apache-2.0 | Copyright (c) Jonas Schievink <jonasschievink@gmail.com>
-- aead (v0.5.2) | MIT OR Apache-2.0 | Copyright (c) 2019 The RustCrypto Project Developers; Copyright (c) 2019 MobileCoin, LLC
-- aes (v0.8.4) | MIT OR Apache-2.0 | Copyright (c) 2018 Artyom Pavlov
-- aes-gcm (v0.10.3) | Apache-2.0 OR MIT | Copyright (c) 2019 The RustCrypto Project Developers
+- aead (v0.6.1) | MIT OR Apache-2.0 | Copyright (c) 2019-2026 The RustCrypto Project Developers; Copyright (c) 2019 MobileCoin, LLC
+- aes (v0.9.4) | MIT OR Apache-2.0 | Copyright (c) 2018-2024 The RustCrypto Project Developers; Copyright (c) 2018 Artyom Pavlov
+- aes-gcm (v0.11.1) | Apache-2.0 OR MIT | Copyright (c) 2019-2026 The RustCrypto Project Developers
 - allocator-api2 (v0.2.21) | MIT OR Apache-2.0 | Copyright (c) Zakarum
 - annotate-snippets (v0.12.17) | MIT OR Apache-2.0 | Copyright (c) Individual contributors
 - anstyle (v1.0.14) | MIT OR Apache-2.0 | Copyright (c) Individual contributors
@@ -117,32 +116,37 @@ D. Permissive Crates (MIT / Apache-2.0 / Zlib / BSL-1.0 / 0BSD / CC0-1.0 / Unlic
 - arc-swap (v1.9.3) | MIT OR Apache-2.0 | Copyright (c) 2017 arc-swap developers
 - arrayvec (v0.7.8) | MIT OR Apache-2.0 | Copyright (c) Ulrik Sverdrup "bluss" 2015-2023
 - autocfg (v1.5.1) | Apache-2.0 OR MIT | Copyright (c) 2018 Josh Stone
-- base64 (v0.22.1, v0.23.1) | MIT OR Apache-2.0 | Copyright (c) 2015 Alice Maz
+- base64 (v0.23.1) | MIT OR Apache-2.0 | Copyright (c) 2025 Alice Maz, Marshall Pierce
 - bitflags (v2.13.2) | MIT OR Apache-2.0 | Copyright (c) 2014 The Rust Project Developers
+- block-buffer (v0.12.1) | MIT OR Apache-2.0 | Copyright (c) 2018-2025 The RustCrypto Project Developers
 - by_address (v1.2.1) | MIT OR Apache-2.0 | Copyright (c) 2017 Matt Brubeck
 - bytemuck (v1.25.2) | Zlib OR Apache-2.0 OR MIT | Copyright (c) 2019 Daniel "Lokathor" Gee
 - bytemuck_derive (v1.12.1) | Zlib OR Apache-2.0 OR MIT | Copyright (c) 2019 Daniel "Lokathor" Gee
 - byteorder-lite (v0.1.0) | Unlicense OR MIT | Copyright (c) 2015 Andrew Gallant
 - cfg-if (v1.0.5) | MIT OR Apache-2.0 | Copyright (c) 2014 Alex Crichton
 - cfg_aliases (v0.2.2) | MIT | Copyright (c) 2020 Katharos Technology
+- chacha20 (v0.10.2) | MIT OR Apache-2.0 | Copyright (c) 2019-2026 The RustCrypto Project Developers
 - chrono (v0.4.45) | MIT OR Apache-2.0 | Copyright (c) 2014, Kang Seonghoon
-- cipher (v0.4.4) | MIT OR Apache-2.0 | Copyright (c) 2016-2020 RustCrypto Developers
+- cipher (v0.5.2) | MIT OR Apache-2.0 | Copyright (c) 2016-2025 RustCrypto Developers
 - clipboard-win (v5.4.3) | BSL-1.0 | Copyright (c) Douman
 - clru (v0.6.3) | MIT | Copyright (c) 2020 Élie ROUDNINSKI (marmeladema) <xademax@gmail.com>
+- cmov (v0.5.4) | Apache-2.0 OR MIT | Copyright (c) 2022-2026 The RustCrypto Project Developers
 - color_quant (v1.1.0) | MIT | Copyright (c) 2016 PistonDevelopers
 - const-field-offset (v0.2.1) | MIT OR Apache-2.0 | Copyright (c) Slint Developers
 - const-field-offset-macro (v0.2.1) | MIT OR Apache-2.0 | Copyright (c) Slint Developers
 - convert_case (v0.10.0) | MIT | Copyright (c) 2025 rutrum
 - countme (v3.0.1) | MIT OR Apache-2.0 | Copyright (c) Aleksey Kladov
-- cpufeatures (v0.2.17) | MIT OR Apache-2.0 | Copyright (c) 2020-2025 The RustCrypto Project Developers
+- cpubits (v0.1.1) | MIT OR Apache-2.0 | Copyright (c) 2023-2026 The RustCrypto Project Developers; Copyright (c) 2014 Alex Crichton
+- cpufeatures (v0.3.1) | MIT OR Apache-2.0 | Copyright (c) 2020-2026 The RustCrypto Project Developers
 - crc32fast (v1.5.4) | MIT OR Apache-2.0 | Copyright (c) 2018 Sam Rijs, Alex Crichton and contributors
 - critical-section (v1.2.0) | MIT OR Apache-2.0 | Copyright (c) 2022 The critical-section authors
 - crossbeam-channel (v0.5.17) | MIT OR Apache-2.0 | Copyright (c) 2019 The Crossbeam Project Developers; Copyright (c) 2009 The Go Authors. All rights reserved
 - crossbeam-deque (v0.8.8) | MIT OR Apache-2.0 | Copyright (c) 2019 The Crossbeam Project Developers
 - crossbeam-epoch (v0.9.21) | MIT OR Apache-2.0 | Copyright (c) 2019 The Crossbeam Project Developers
 - crossbeam-utils (v0.8.23) | MIT OR Apache-2.0 | Copyright (c) 2019 The Crossbeam Project Developers
-- crypto-common (v0.1.7) | MIT OR Apache-2.0 | Copyright (c) 2021 RustCrypto Developers
-- ctr (v0.9.2) | MIT OR Apache-2.0 | Copyright (c) 2018-2022 RustCrypto Developers; Copyright (c) 2018 Artyom Pavlov
+- crypto-common (v0.2.2) | MIT OR Apache-2.0 | Copyright (c) 2021-2026 RustCrypto Developers
+- ctr (v0.10.1) | MIT OR Apache-2.0 | Copyright (c) 2018-2022 RustCrypto Developers; Copyright (c) 2018 Artyom Pavlov
+- ctutils (v0.4.8) | Apache-2.0 OR MIT | Copyright (c) 2025-2026 The RustCrypto Project Developers
 - cursor-icon (v1.2.0) | MIT OR Apache-2.0 OR Zlib | Copyright (c) 2023 Kirill Chibisov
 - data-url (v0.3.2) | MIT OR Apache-2.0 | Copyright (c) 2013-2025 The rust-url developers
 - derive_more (v2.1.1) | MIT | Copyright (c) 2016 Jelte Fennema
@@ -162,14 +166,14 @@ D. Permissive Crates (MIT / Apache-2.0 / Zlib / BSL-1.0 / 0BSD / CC0-1.0 / Unlic
 - fontdb (v0.24.0) | MIT | Copyright (c) 2020 Yevhenii Reizner
 - fontique (v0.11.1) | Apache-2.0 OR MIT | Copyright (c) 2024 the Parley Authors
 - form_urlencoded (v1.2.2) | MIT OR Apache-2.0 | Copyright (c) 2013-2016 The rust-url developers
-- generic-array (v0.14.7) | MIT | Copyright (c) 2015 Bartłomiej Kamiński
-- getrandom (v0.2.17) | MIT OR Apache-2.0 | Copyright (c) 2018-2024 The rust-random Project Developers; Copyright (c) 2014 The Rust Project Developers
-- ghash (v0.5.1) | Apache-2.0 OR MIT | Copyright (c) 2019 RustCrypto Developers
+- getrandom (v0.4.3) | MIT OR Apache-2.0 | Copyright (c) 2018-2026 The rust-random Project Developers; Copyright (c) 2014 The Rust Project Developers
+- ghash (v0.6.0) | Apache-2.0 OR MIT | Copyright (c) 2019-2026 The RustCrypto Project Developers
 - gif (v0.14.2) | MIT OR Apache-2.0 | Copyright (c) 2015 nwin
 - harfrust (v0.12.0) | MIT | Copyright (c) HarfBuzz developers; Copyright (c) 2020 Yevhenii Reizner
 - hashbrown (v0.14.5, v0.16.1, v0.17.1) | MIT OR Apache-2.0 | Copyright (c) 2016 Amanieu d'Antras
 - heck (v0.5.0) | MIT OR Apache-2.0 | Copyright (c) 2015 The Rust Project Developers
 - htmlparser (v0.2.1) | MIT OR Apache-2.0 | Copyright (c) 2018 Reizner Evgeniy
+- hybrid-array (v0.4.15) | MIT OR Apache-2.0 | Copyright (c) 2022-2026 The RustCrypto Project Developers
 - idna (v1.1.0) | MIT OR Apache-2.0 | Copyright (c) 2013-2025 The rust-url developers
 - idna_adapter (v1.2.2) | Apache-2.0 OR MIT | Copyright (c) The rust-url developers
 - image (v0.25.10) | MIT OR Apache-2.0 | Copyright (c) The image-rs Developers
@@ -177,7 +181,7 @@ D. Permissive Crates (MIT / Apache-2.0 / Zlib / BSL-1.0 / 0BSD / CC0-1.0 / Unlic
 - imagesize (v0.15.0) | MIT | Copyright (c) 2017 Maiddog
 - imgref (v1.12.3) | CC0-1.0 OR Apache-2.0 | Copyright (c) Kornel Lesiński
 - indexmap (v2.14.2) | Apache-2.0 OR MIT | Copyright (c) indexmap-rs and indexmap contributors
-- inout (v0.1.4) | MIT OR Apache-2.0 | Copyright (c) 2022 The RustCrypto Project Developers; Copyright (c) 2022 Artyom Pavlov
+- inout (v0.2.6) | MIT OR Apache-2.0 | Copyright (c) 2022-2025 The RustCrypto Project Developers; Copyright (c) 2022 Artyom Pavlov
 - itertools (v0.15.0) | MIT OR Apache-2.0 | Copyright (c) bluss
 - itoa (v1.0.18) | MIT OR Apache-2.0 | Copyright (c) David Tolnay
 - keyboard-types (v0.7.0) | MIT OR Apache-2.0 | Copyright (c) 2017 Pyfisch
@@ -201,7 +205,6 @@ D. Permissive Crates (MIT / Apache-2.0 / Zlib / BSL-1.0 / 0BSD / CC0-1.0 / Unlic
 - num_enum (v0.7.6) | BSD-3-Clause OR MIT OR Apache-2.0 | Copyright (c) 2018, Daniel Wagner-Hall
 - num_enum_derive (v0.7.6) | BSD-3-Clause OR MIT OR Apache-2.0 | Copyright (c) 2018, Daniel Wagner-Hall
 - once_cell (v1.21.4) | MIT OR Apache-2.0 | Copyright (c) Aleksey Kladov
-- opaque-debug (v0.3.1) | MIT OR Apache-2.0 | Copyright (c) 2018-2024 The RustCrypto Project Developers
 - parlance (v0.1.1) | Apache-2.0 OR MIT | Copyright (c) 2020 the Parley Authors
 - parley (v0.11.1) | Apache-2.0 OR MIT | Copyright (c) 2020 the Parley Authors
 - parley_data (v0.11.1) | Apache-2.0 OR MIT | Copyright (c) 2020 the Parley Authors
@@ -214,18 +217,16 @@ D. Permissive Crates (MIT / Apache-2.0 / Zlib / BSL-1.0 / 0BSD / CC0-1.0 / Unlic
 - pin-weak (v1.1.0) | MIT | Copyright (c) 2020 Olivier Goffart <ogoffart@sixtyfps.io>
 - png (v0.18.1) | MIT OR Apache-2.0 | Copyright (c) 2015 nwin
 - polycool (v0.4.0) | MIT OR Apache-2.0 | Copyright (c) 2018 Raph Levien
-- polyval (v0.6.2) | Apache-2.0 OR MIT | Copyright (c) 2019-2023 RustCrypto Developers
+- polyval (v0.7.3) | Apache-2.0 OR MIT | Copyright (c) 2019-2026 The RustCrypto Project Developers
 - portable-atomic (v1.15.0) | Apache-2.0 OR MIT | Copyright (c) taiki-e and portable-atomic contributors
-- ppv-lite86 (v0.2.21) | MIT OR Apache-2.0 | Copyright (c) 2019 The CryptoCorrosion Contributors
 - proc-macro-crate (v3.5.0) | MIT OR Apache-2.0 | Copyright (c) Bastian Köcher
 - proc-macro2 (v1.0.107) | MIT OR Apache-2.0 | Copyright (c) David Tolnay, Alex Crichton
 - pulldown-cmark (v0.13.6) | MIT | Copyright (c) 2015 Google Inc. All rights reserved
 - pxfm (v0.1.30) | BSD-3-Clause OR Apache-2.0 | Copyright (c) 2024 Radzivon Bartoshyk; Copyright (c) Radzivon Bartoshyk. All rights reserved
 - quick-error (v2.0.1) | MIT OR Apache-2.0 | Copyright (c) 2015 The quick-error Developers
 - quote (v1.0.47) | MIT OR Apache-2.0 | Copyright (c) David Tolnay
-- rand (v0.8.8) | MIT OR Apache-2.0 | Copyright (c) 2018 Developers of the Rand project; Copyright (c) 2014 The Rust Project Developers
-- rand_chacha (v0.3.1) | MIT OR Apache-2.0 | Copyright (c) 2018 Developers of the Rand project; Copyright (c) 2014 The Rust Project Developers
-- rand_core (v0.6.4) | MIT OR Apache-2.0 | Copyright (c) 2018 Developers of the Rand project; Copyright (c) 2014 The Rust Project Developers
+- rand (v0.10.4) | MIT OR Apache-2.0 | Copyright (c) 2018 Developers of the Rand project; Copyright (c) 2014 The Rust Project Developers
+- rand_core (v0.10.1) | MIT OR Apache-2.0 | Copyright (c) 2018-2026 The Rand Project Developers
 - raw-window-handle (v0.6.2) | MIT OR Apache-2.0 OR Zlib | Copyright (c) 2019 Osspial; Copyright (c) 2020 Osspial
 - rayon (v1.12.0) | MIT OR Apache-2.0 | Copyright (c) 2010 The Rust Project Developers
 - rayon-core (v1.13.0) | MIT OR Apache-2.0 | Copyright (c) 2010 The Rust Project Developers
@@ -245,7 +246,7 @@ D. Permissive Crates (MIT / Apache-2.0 / Zlib / BSL-1.0 / 0BSD / CC0-1.0 / Unlic
 - serde_core (v1.0.229) | MIT OR Apache-2.0 | Copyright (c) Erick Tryzelaar, David Tolnay
 - serde_derive (v1.0.229) | MIT OR Apache-2.0 | Copyright (c) Erick Tryzelaar, David Tolnay
 - serde_json (v1.0.154) | MIT OR Apache-2.0 | Copyright (c) serde-rs and serde_json contributors
-- serde_spanned (v0.6.9, v1.1.2) | MIT OR Apache-2.0 | Copyright (c) Individual contributors
+- serde_spanned (v1.1.2) | MIT OR Apache-2.0 | Copyright (c) Individual contributors
 - simd-adler32 (v0.3.10) | MIT | Copyright (c) [2021] [Marvin Countryman]
 - simplecss (v0.2.2) | Apache-2.0 OR MIT | Copyright (c) 2018 Reizner Evgeniy
 - siphasher (v1.0.4) | MIT OR Apache-2.0 | Copyright (c) 2012-2016 The Rust Project Developers; Copyright (c) 2016-2026 Frank Denis
@@ -272,11 +273,10 @@ D. Permissive Crates (MIT / Apache-2.0 / Zlib / BSL-1.0 / 0BSD / CC0-1.0 / Unlic
 - thiserror (v2.0.21) | MIT OR Apache-2.0 | Copyright (c) David Tolnay
 - thiserror-impl (v2.0.21) | MIT OR Apache-2.0 | Copyright (c) David Tolnay
 - tinyvec (v1.13.3) | Zlib OR Apache-2.0 OR MIT | Copyright (c) 2019 Daniel "Lokathor" Gee
-- toml (v0.8.23, v1.2.0+spec-1.1.0) | MIT OR Apache-2.0 | Copyright (c) Individual contributors
-- toml_datetime (v0.6.11, v1.1.2+spec-1.1.0) | MIT OR Apache-2.0 | Copyright (c) Individual contributors
-- toml_edit (v0.22.27, v0.25.18+spec-1.1.0) | MIT OR Apache-2.0 | Copyright (c) Individual contributors
+- toml (v1.2.0+spec-1.1.0) | MIT OR Apache-2.0 | Copyright (c) Individual contributors
+- toml_datetime (v1.1.2+spec-1.1.0) | MIT OR Apache-2.0 | Copyright (c) Individual contributors
+- toml_edit (v0.25.18+spec-1.1.0) | MIT OR Apache-2.0 | Copyright (c) Individual contributors
 - toml_parser (v1.1.5+spec-1.1.0) | MIT OR Apache-2.0 | Copyright (c) Individual contributors
-- toml_write (v0.1.2) | MIT OR Apache-2.0 | Copyright (c) Individual contributors
 - toml_writer (v1.2.0+spec-1.1.0) | MIT OR Apache-2.0 | Copyright (c) Individual contributors
 - tracing (v0.1.44) | MIT | Copyright (c) 2019 Tokio Contributors
 - tracing-core (v0.1.36) | MIT | Copyright (c) 2019 Tokio Contributors
@@ -290,7 +290,7 @@ D. Permissive Crates (MIT / Apache-2.0 / Zlib / BSL-1.0 / 0BSD / CC0-1.0 / Unlic
 - unicode-vo (v0.1.0) | MIT OR Apache-2.0 | Copyright (c) 2018 Reizner Evgeniy
 - unicode-width (v0.2.3) | MIT OR Apache-2.0 | Copyright (c) 2015 The Rust Project Developers
 - unicode-xid (v0.2.6) | MIT OR Apache-2.0 | Copyright (c) 2015 The Rust Project Developers
-- universal-hash (v0.5.1) | MIT OR Apache-2.0 | Copyright (c) 2019-2020 RustCrypto Developers
+- universal-hash (v0.6.1) | MIT OR Apache-2.0 | Copyright (c) 2019-2025 RustCrypto Developers
 - url (v2.5.8) | MIT OR Apache-2.0 | Copyright (c) 2013-2025 The rust-url developers
 - usvg (v0.48.1) | Apache-2.0 OR MIT | Copyright (c) 2017 the Resvg Authors
 - utf8_iter (v1.1.0) | Apache-2.0 OR MIT | Copyright (c) Henri Sivonen
@@ -300,28 +300,27 @@ D. Permissive Crates (MIT / Apache-2.0 / Zlib / BSL-1.0 / 0BSD / CC0-1.0 / Unlic
 - vtable-macro (v0.5.0) | MIT OR Apache-2.0 | Copyright (c) Slint Developers
 - webbrowser (v1.2.6) | MIT OR Apache-2.0 | Copyright (c) 2015-2022 Amod Malviya
 - weezl (v0.1.12) | MIT OR Apache-2.0 | Copyright (c) HeroicKatora 2020
-- windows (v0.58.0, v0.62.2) | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation
+- windows (v0.62.2) | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation
 - windows-collections (v0.3.2) | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation
-- windows-core (v0.58.0, v0.62.2) | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation
+- windows-core (v0.62.2) | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation
 - windows-future (v0.3.2) | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation
-- windows-implement (v0.58.0, v0.60.2) | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation
-- windows-interface (v0.58.0, v0.59.3) | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation
+- windows-implement (v0.60.2) | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation
+- windows-interface (v0.59.3) | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation
 - windows-link (v0.2.1) | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation
 - windows-numerics (v0.3.1) | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation
-- windows-result (v0.2.0, v0.4.1) | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation
-- windows-strings (v0.1.0, v0.5.1) | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation
+- windows-result (v0.4.1) | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation
+- windows-strings (v0.5.1) | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation
 - windows-sys (v0.52.0, v0.61.2) | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation
 - windows-targets (v0.52.6) | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation
 - windows-threading (v0.2.1) | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation
 - windows_aarch64_msvc (v0.52.6) | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation
 - windows_x86_64_msvc (v0.52.6) | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation
 - winit (v0.30.13) | Apache-2.0 | Copyright (c) The winit contributors, Pierre Krieger
-- winnow (v0.7.15, v1.0.4) | MIT | Copyright (c) winnow-rs and winnow contributors
+- winnow (v1.0.4) | MIT | Copyright (c) winnow-rs and winnow contributors
 - winresource (v0.1.34) | MIT | Copyright (c) 2016 Max Resch
 - xmlwriter (v0.1.0) | MIT | Copyright (c) 2019 Reizner Evgeniy
 - yazi (v0.2.2) | Apache-2.0 OR MIT | Copyright (c) 2020 Chad Brokaw
 - zeno (v0.3.3) | Apache-2.0 OR MIT | Copyright (c) 2020 Chad Brokaw
-- zerocopy (v0.8.63) | BSD-2-Clause OR Apache-2.0 OR MIT | Copyright (c) 2023 The Fuchsia Authors; Copyright (c) 2019 The Fuchsia Authors
 - zmij (v1.0.23) | MIT | Copyright (c) David Tolnay
 - zune-core (v0.5.3) | MIT OR Apache-2.0 OR Zlib | Copyright (c) zune-image developers
 - zune-jpeg (v0.5.15) | MIT OR Apache-2.0 OR Zlib | Copyright (c) zune-image developers
