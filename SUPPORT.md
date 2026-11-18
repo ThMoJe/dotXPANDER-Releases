@@ -37,7 +37,7 @@ Our GitHub repository uses structured issue forms to ensure all necessary system
 
 ## 2. Official Web Portal & In-App Link
 
-The in-app **"🪲 Report a Bug"** button in dotXPANDER links directly to our official support portal:
+The in-app **"Report a Bug"** button in dotXPANDER links directly to our official support portal:
 👉 **[https://www.dotxpander.com/support/](https://www.dotxpander.com/support/)**
 
 If you do not have a GitHub account, you can submit inquiries directly through the website form. Inquiries are reviewed by the XPANDER team in the order received, typically within a few business days.
