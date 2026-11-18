@@ -58,7 +58,7 @@ Before opening a support ticket, checking these common Windows configuration poi
 
 ### C. Where Are My Settings Located?
 - **Installed Mode**:
-  - Configuration: `%LOCALAPPDATA%\aiVOLUTION\dotXPANDER` (`config.<machine_id>.toml`, `snippets.<machine_id>.toml`, `snippet_blobs/`, plus encrypted `clipboard.<machine_id>.*.toml` shards and `clipboard_blobs/` when Clipboard History is enabled from the next release, or your custom cloud-synced folder)
+  - Configuration: `%LOCALAPPDATA%\aiVOLUTION\dotXPANDER` (`config.<machine_id>.toml`, `snippets.<machine_id>.toml`, `snippet_blobs/`, plus encrypted `clipboard.<machine_id>.*.toml` shards and `clipboard_blobs/` when Clipboard History is enabled, or your custom cloud-synced folder)
 - **Portable Mode**:
   - Configuration is stored directly alongside `dotXPANDER.exe`.
 *(Note: Official release builds compile out diagnostic file logging to disk for maximum user privacy and credential security).*
