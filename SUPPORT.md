@@ -60,11 +60,11 @@ Before opening a support ticket, checking these common Windows configuration poi
 - **Installed Mode**:
   - Configuration: `%LOCALAPPDATA%\aiVOLUTION\dotXPANDER` (`config.<machine_id>.toml`, `snippets.<machine_id>.toml`, `snippet_blobs/`, plus encrypted `clipboard.<machine_id>.*.toml` shards and `clipboard_blobs/` when Clipboard History is enabled, or your custom cloud-synced folder)
 - **Portable Mode**:
-  - Configuration is stored directly alongside `dotXPANDER.exe`.
+  - Configuration (`config.<machine_id>.toml`, `snippets.<machine_id>.toml`, and `snippet_blobs/`) is stored directly alongside `dotxpander.exe` (or `dotXPANDER-<arch>.exe` when extracted from the portable ZIP).
 *(Note: Official release builds compile out diagnostic file logging to disk for maximum user privacy and credential security).*
 
 ### D. Restoring an Encrypted Configuration
-- If you enabled AES-256-GCM encryption on your configuration file and move to a new machine or reset your Windows user profile, you can restore your snippets using the **One-Time Recovery Key** generated when encryption was first activated.
+- If you enabled AES-256-GCM encryption on your configuration and snippet files (`config.<machine_id>.toml` and `snippets.<machine_id>.toml`) and move to a new machine or reset your Windows user profile, you can restore your snippets using the **One-Time Recovery Key** generated when encryption was first activated.
 
 ---
 
