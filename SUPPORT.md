@@ -57,8 +57,10 @@ Before opening a support ticket, checking these common Windows configuration poi
 - **Solution**: Test by temporarily disabling or exiting competing hotkey utilities to isolate the conflict.
 
 ### C. Where Are My Settings Located?
+- **Microsoft Store (`MSIX`) Mode**:
+  - Default configuration: `%LOCALAPPDATA%\Packages\<PFN>\LocalCache\Local\aiVOLUTION\dotXPANDER` (`config.<machine_id>.toml`, `snippets.<machine_id>.toml`, `snippet_blobs/`, plus encrypted `clipboard.<machine_id>.*.toml` shards and `clipboard_blobs/` when Clipboard History is enabled, or your custom cloud-synced folder)
 - **Installed Mode**:
-  - Configuration: `%LOCALAPPDATA%\aiVOLUTION\dotXPANDER` (`config.<machine_id>.toml`, `snippets.<machine_id>.toml`, `snippet_blobs/`, plus encrypted `clipboard.<machine_id>.*.toml` shards and `clipboard_blobs/` when Clipboard History is enabled, or your custom cloud-synced folder)
+  - Default configuration: `%LOCALAPPDATA%\aiVOLUTION\dotXPANDER` (`config.<machine_id>.toml`, `snippets.<machine_id>.toml`, `snippet_blobs/`, plus encrypted `clipboard.<machine_id>.*.toml` shards and `clipboard_blobs/` when Clipboard History is enabled, or your custom cloud-synced folder)
 - **Portable Mode**:
   - Configuration (`config.<machine_id>.toml`, `snippets.<machine_id>.toml`, and `snippet_blobs/`) is stored directly alongside `dotxpander.exe` (or `dotXPANDER-<arch>.exe` when extracted from the portable ZIP).
 *(Note: Official release builds compile out diagnostic file logging to disk for maximum user privacy and credential security).*
