@@ -17,13 +17,14 @@ Install directly from the [Microsoft Store](https://apps.microsoft.com/detail/9N
 winget install ".XPANDER" --source msstore
 ```
 
-### Option B: Windows Package Manager (Winget)
-
+### Option B: Windows Package Manager (Winget) - Awaiting PR approval
+<strike>
 For standalone desktop installer deployment (including environments without Microsoft Store access):
 
 ```powershell
 winget install aiVOLUTION.dotXPANDER
 ```
+</strike>
 
 ### Option C: Windows Installer
 
